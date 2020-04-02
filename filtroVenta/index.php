@@ -16,21 +16,24 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style_nav.css" rel="stylesheet">
+    <link href="css/style_side.css" rel="stylesheet">
     <script src="js/script.js"></script>
 
     <link href="style.css" rel="stylesheet"/>
 
-    <style>
+    <!--<style>
         .content {
             margin-top: 80px;
         }
-    </style>
+    </style>-->
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <?php include("nav.php"); ?>
+<!--<nav class="navbar navbar-default navbar-fixed-top">
+    <?php #include("nav.php"); ?>
+</nav>-->
+<nav class="navbar navbar-inverse navbar-fixed-left">
+    <?php include("sidebar.php"); ?>
 </nav>
 
 <div class="content">
