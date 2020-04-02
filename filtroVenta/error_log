@@ -1,0 +1,1 @@
+[28-Mar-2020 14:48:51 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/grupoc20/test.grupoconectate.com/public/filtroVenta/index.php on line 127
