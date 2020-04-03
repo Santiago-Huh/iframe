@@ -32,7 +32,7 @@ margin:0;
     background-image: url(../../img/default.jpg);
     /*background:#7353b1;  */ 
     background-size: cover;
-   font-family: 'Signika', sans-serif;
+   font-family: 'Raleway';
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -128,7 +128,7 @@ h1 {
     outline: none;
     border: none;
     border-bottom: 2px solid #000;
-        font-family: 'Signika', sans-serif;
+        font-family: 'Raleway';
 }
 .login-main input[type="password"] {
     font-size: 1em;
@@ -140,7 +140,7 @@ h1 {
     outline: none;
     border: none;
     border-bottom: 2px solid #000;
-        font-family: 'Signika', sans-serif;
+        font-family: 'Raleway';
 }
 .login-main input[type="submit"] {
     font-size: 1em;
