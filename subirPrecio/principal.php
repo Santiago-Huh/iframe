@@ -13,22 +13,41 @@ include('session.php');
 
     <!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style_nav.css" rel="stylesheet">
+    <!--<link href="css/style_nav.css" rel="stylesheet">-->
+    <link href="css/style_side.css" rel="stylesheet">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
 
-    <style>
+    <!--<style>
 		.content {
             margin-top: 80px;
 		}
-	</style>
+	</style>-->
 </head>
 <body>
     
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <?php include('./navs/nav.php'); ?>
-    </nav>
+    <!--<nav class="navbar navbar-default navbar-fixed-top">
+        <?php #include('./navs/nav.php'); ?>
+    </nav>-->
+    <nav class="navbar navbar-inverse" style="display: unset;
+position: fixed; top: 0; bottom: 0; background: #2d2f3e; width: 10rem; overflow-y: auto; overflow-x: hidden; animation: sidebar-slide-right 0.8s; z-index: 1030; font-weight: 300;">
+    <?php include("./sidebars/sidebar.php"); ?>
+</nav>
 
-    <div class="container">
-        <div class="content" style="font-family: 'Raleway', sans-serif;">
+    <div class="content" style="margin-top: 80px; float: right;">
+    <div class="pestañas"> 
+        <a href="../filtroVenta">
+            <button class="pestaña" style="font-size: 20px; border: none; width: 200px; padding: 10px; border-top-left-radius: 10px;">Lista de productos</button>
+        </a>
+        <a href="../subirPrecio">
+        <button class="pestaña" style="width:250px; border: none; background-color: #2d2f3e2e; color: #535561;">Aumento por Venta</button>
+        </a>
+        <a href="../subirPrecio/compra.php">
+        <button class="pestaña" style="width:250px; border-top-right-radius: 10px;">Aumento por Compra</button>
+        </a>
+    </div>
+        <div class="container" style="font-family: 'Raleway', sans-serif; background: #ffffff;
+
+box-shadow: 0 1px 15px 1px rgba(60, 55, 68, 0.15);">
         <h2>Lista de grupos (Venta)</h2><h3>Bienvenid@ <i><?php echo $login_session; ?></i></h3>
         <hr />
         <div class="clear"> </div>

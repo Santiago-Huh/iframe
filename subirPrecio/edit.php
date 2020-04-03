@@ -20,12 +20,14 @@ Email	 	 : ayrancan619@gmail.com
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-datepicker.css" rel="stylesheet">
-	<link href="css/style_nav.css" rel="stylesheet">
-	<style>
+	<!--<link href="css/style_nav.css" rel="stylesheet">-->
+	<link href="css/style_side.css" rel="stylesheet">
+	<link rel="stylesheet" href="../fontawesome/css/all.css">
+	<!--<style>
 		.content {
 			margin-top: 80px;
 		}
-	</style>
+	</style>-->
 	
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -33,11 +35,22 @@ Email	 	 : ayrancan619@gmail.com
 	<![endif]-->
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<?php include("./navs/nav-edit.php");?>
-	</nav>
-	<div class="container">
-		<div class="content" style="font-family: 'Raleway', sans-serif;">
+	<!--<nav class="navbar navbar-default navbar-fixed-top">
+		<?php //include("./navs/nav-edit.php");?>
+	</nav>-->
+	<nav class="navbar navbar-inverse" style="display: unset;
+position: fixed; top: 0; bottom: 0; background: #2d2f3e; width: 10rem; overflow-y: auto; overflow-x: hidden; animation: sidebar-slide-right 0.8s; z-index: 1030; font-weight: 300;">
+    <?php include("./sidebars/sidebar.php"); ?>
+</nav>
+	<div class="content" style="margin-top: 80px; float: right;">
+	<div class="pestañas"> 
+        <a href="../subirPrecio">
+            <button class="pestaña" style="font-size: 20px; border: none; width: 200px; padding: 10px; border-top-left-radius: 10px;">Regresar</button>
+        </a>
+    </div>
+		<div class="container" style="font-family: 'Raleway', sans-serif; background: #ffffff;
+
+box-shadow: 0 1px 15px 1px rgba(60, 55, 68, 0.15);">
 			<?php
 			// escaping, additionally removing everything that could be (html/javascript-) code
 			// , cate.name as category_id, marca.name as brand_id

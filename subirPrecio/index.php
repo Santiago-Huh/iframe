@@ -35,12 +35,13 @@ echo $r['email'];*/
 </head>
 <body>
     <!--header start here-->
-    <h1>Inicio de sesi&oacute;n para aumentos</h1>
+    <!--<h1>Inicio de sesi&oacute;n para aumentos</h1>-->
+    <h1></h1>
     <div class="header agile">
         <div class="wrap">
             <div class="login-main wthree">
                 <div class="login">
-                <h3>Inicie sesión</h3>
+                <h3>Inicio de sesi&oacute;n para aumentos</h3>
                 <form action="#" method="post">
                     <input type="text" placeholder="Correo electrónico" required="" name="username" required>
                     <input type="password" placeholder="Contraseña" name="password" required>
@@ -57,10 +58,10 @@ echo $r['email'];*/
     </div>
     <!--header end here-->
     <!--copy rights end here-->
-    <div class="copy-rights w3l">		 	
-        <p>© <?php echo date("Y");?> <a href="#" target="_blank">Sistemas Web</a>  Todos los derechos reservados | Diseñado por  <a href="#" target="_blank">Administrapp</a> </p>		 	
+    <!--<div class="copy-rights w3l">		 	
+        <p>© <?php #echo date("Y");?> <a href="#" target="_blank">Sistemas Web</a>  Todos los derechos reservados | Diseñado por  <a href="#" target="_blank">Administrapp</a> </p>		 	
     </div>
-    <!--copyrights start here-->
+    copyrights start here-->
 
 </body>
 </html>

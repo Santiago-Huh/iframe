@@ -29,7 +29,8 @@ img{max-width:100%;}
 body{
 padding:0;
 margin:0;
-    background:#7353b1;   
+    background-image: url(../../img/default.jpg);
+    /*background:#7353b1;  */ 
     background-size: cover;
    font-family: 'Signika', sans-serif;
 }

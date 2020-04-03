@@ -14,7 +14,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
-
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style_side.css" rel="stylesheet">
     <script src="js/script.js"></script>
@@ -32,12 +32,26 @@
 <!--<nav class="navbar navbar-default navbar-fixed-top">
     <?php #include("nav.php"); ?>
 </nav>-->
-<nav class="navbar navbar-inverse navbar-fixed-left">
+<nav class="navbar navbar-inverse" style="display: unset;
+position: fixed; top: 0; bottom: 0; background: #2d2f3e; width: 10rem; overflow-y: auto; overflow-x: hidden; animation: sidebar-slide-right 0.8s; z-index: 1030; font-weight: 300;">
     <?php include("sidebar.php"); ?>
 </nav>
 
-<div class="content">
-    <div class="container">
+<div class="content" style="margin-top: 80px; float: right;">
+
+<div class="pestañas"> 
+    <a href="./index.php">
+        <button class="pestaña" style="font-size: 20px; border: none; width: 200px; padding: 10px; background-color: #2d2f3e2e; color: #535561; border-top-left-radius: 10px;">Lista de productos</button>
+    </a>
+    <a href="../subirPrecio">
+    <button class="pestaña" style="width:250px; border-top-right-radius: 10px;">Aumento de productos</button>
+    </a>
+</div>
+    <div class="container" style="background: #ffffff;
+
+box-shadow: 0 1px 15px 1px rgba(60, 55, 68, 0.15);">
+
+        
 
         <h2>Productos Vendidos</h2>
         <hr/>
