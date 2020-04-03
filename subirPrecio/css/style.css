@@ -145,7 +145,7 @@ h1 {
 .login-main input[type="submit"] {
     font-size: 1em;
     color: #fff;
-    background: #ecaf0f;
+    background: #2d2f3e;
     border: none;
     width: 94%;
     display: block;
@@ -161,7 +161,7 @@ h1 {
     cursor: pointer;
 }
 .login-main input[type="submit"]:hover{
-    background: #7353b1;
+    background: #533a83;
     transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
