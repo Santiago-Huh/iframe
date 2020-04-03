@@ -33,7 +33,7 @@
     <?php #include("nav.php"); ?>
 </nav>-->
 <nav class="navbar navbar-inverse" style="display: unset;
-position: fixed; top: 0; bottom: 0; background: #2d2f3e; width: 10rem; overflow-y: auto; overflow-x: hidden; animation: sidebar-slide-right 0.8s; z-index: 1030; font-weight: 300;">
+position: fixed; top: 0; bottom: 0; background: #2d2f3e; width: 10rem; overflow-y: auto; overflow-x: hidden; animation: sidebar-slide-right 0.8s; z-index: 1030; font-weight: 300;overflow:hidden;">
     <?php include("sidebar.php"); ?>
 </nav>
 

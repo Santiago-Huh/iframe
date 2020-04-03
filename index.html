@@ -12,7 +12,8 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
-    
+  <link rel="stylesheet" href="./fontawesome/css/all.css">  
+
   <style>
     html, body{
       overflow:hidden;
@@ -33,7 +34,7 @@
     </div>
   </div>-->
   <div class="content">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg" style="padding-bottom: 0rem;padding-top: 0px; background-color: #2d2f3e; height: 30px;">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -43,17 +44,21 @@
           <!--<li class="nav-item active">
             <a class="nav-link" rel="http://www.wikipedia.com">Link 1</a>
           </li>-->
-          <li class="nav-item">
-            <a class="nav-link" rel="http://grupoconectate.com">Principal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="./filtroVenta">Extensiones</a>
-          </li>
+          <button style="border-style: none;background-color: #2d2f3e;padding: 10px;width: 124px;text-align: left;height: 30px;">
+            <a class="nav-link" style="color: #75757b;position: relative;bottom: 11px;" rel="http://grupoconectate.com">
+              <i class="fas fa-home"></i>
+              Principal</a>
+          </button>
+          <button style="border-style: none;background-color: #2d2f3e;height: 30px;">
+            <a class="nav-link" style="color: #fff;padding-bottom: 0px;" rel="./filtroVenta">
+              <i class="fas fa-puzzle-piece"></i>
+              Extras</a>
+          </button>
         </ul>
       </div>
     </nav>
   </div>
-  <iframe  src="http://grupoconectate.com" frameborder="0" height="91%" width="100%" scrolling="yes" id="iframe"></iframe>
+  <iframe  src="http://grupoconectate.com" frameborder="0" height="96%" width="100%" scrolling="yes" id="iframe"></iframe>
   <!--<ul>
     <li rel="http://www.wikipedia.com">Link 1</li>
     <li rel="http://grupoconectate.com/">Link 2</li>
